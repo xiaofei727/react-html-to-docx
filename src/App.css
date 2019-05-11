@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tableBox {
+  text-align: center;
+  width: 800px;
+  
+}
+
+.mytable{
+  border-spacing: 0px;
+  margin: 0 auto;
+}
+
+.mytable thead {
+  background-color: rgb(226, 223, 223);
+  color : red;
+}
+
+.mytable thead tr th{
+  border-bottom: 3px solid black;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.mytable tbody tr td{
+  border-bottom: 1px solid black;
+}
